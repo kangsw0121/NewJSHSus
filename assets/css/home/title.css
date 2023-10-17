@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'LOTTERIACHAB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/LOTTERIACHAB.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#titlefont{    /*제목 로고*/
+    font-family: "LOTTERIACHAB";
+    font-size:180px;
+    color:#f0f4ff;
+    text-align:center;
+    position: relative;
+    top: 25%;
+}
+
+@media screen and (max-height: 850px){
+    #titlefont{
+        font-size: 140px;
+        top: 17%;
+    }
+}
+@media screen and (max-height: 600px){
+    #titlefont{
+        font-size: 100px;
+        top: 5%;
+    }
+}

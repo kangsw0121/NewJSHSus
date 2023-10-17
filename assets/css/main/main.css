@@ -1,0 +1,109 @@
+@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+
+.schedule-box{ /*학사일정 박스*/
+    width: 32%;
+    height: 480px;
+    background-color: #f4edff;
+    border-radius: 15px;
+    position: relative;
+}
+.petition-box{ /*청원·제안 박스*/
+    width: 32%;
+    height: 480px;
+    background-color: #f4edff;
+    border-radius: 15px;
+    position: relative;
+    margin-left: 15px;
+}
+.profile-box{ /*프로필 박스*/
+    width: 32%;
+    height: 480px;
+    background-color: #f4edff;
+    border-radius: 15px;
+    position: relative;
+    margin-left: 15px;
+}
+.notification-box{  /*공지사항 박스*/
+    width: 48.6%;
+    height: 480px;
+    background-color: #f4edff;
+    border-radius: 15px;
+    position: relative;
+}
+.noticeboard-box{  /*자유게시판 박스*/
+    width: 48.6%;
+    height: 480px;
+    background-color: #f4edff;
+    border-radius: 15px;
+    position: relative;
+    margin-left: 15px;
+}
+.main-container{    /*메인창 묶음*/
+    display: flex;
+    flex-direction: column;
+}
+.first-container{   /*학사일정, 청원·제안, 프로필 묶음*/
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: center;
+}
+.second-container{   /*학사일정, 청원·제안, 프로필 묶음*/
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.main-blank{    /*네이게이션과 메인창 사이 여백*/
+    width: 100%;
+    height: 180px;
+    display: flex;
+}
+.menu-icon{  /*아이콘*/
+    height:40px;
+    vertical-align:sub;
+    display:inline-block;
+    padding-left:20px;
+    position:relative;
+    top:15px;
+}
+.menu-title{ /*제목*/
+    font-family: "NanumSquare";
+    font-size: 25px;
+    padding: 15px;
+    padding-left: 5px;
+    display: inline-block;
+    margin: 0;
+    font-weight: 700;
+    position:relative;
+    top:8px;
+}
+.right-arrow{   /*더보기 칸*/
+    float:right;
+    margin-top:18px;
+    margin-right:7px;
+}
+.right-arrow-img{   /*더보기 칸 이미지*/
+    width:40px;
+}
+.small-line{    /*제목 밑에 선*/
+    height: 2px;
+    background-color: #b4a1d3;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 5px;
+}
+
+
+@media screen and (max-width: 1200px){
+    .first-container{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .second-container{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}

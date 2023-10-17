@@ -1,0 +1,100 @@
+@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+
+.main-container{    /*메인창 묶음*/
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.main-blank{    /*네이게이션과 메인창 사이 여백*/
+    width: 100%;
+    height: 150px;
+    display: flex;
+}
+.introduce-title{
+    font-size: 40px;
+    font-family:"NanumSquare";
+    font-weight:400;
+    margin-bottom:0;
+    color:#fafaff;
+    margin-left:30px;
+}
+.dis-line{
+    height:1px;
+    background-color:#fafaff;
+    margin-bottom:20px;
+    margin-top:10px;
+    margin-left:20px;
+    margin-right:20px;
+}
+.menu-bar{  /*소개창 메뉴바*/
+    display:flex;
+    margin-left:5%;
+}
+.menu-choice {  /*소개창 메뉴바 선택란*/
+    color: #1e2235;
+    background-color: #d0d8ff;
+    border: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-family: "NanumSquare";
+    display: block;
+    padding: 0.5rem 1rem;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    box-sizing: content-box;
+    font-size: 18px;
+    margin-right:5px;
+}
+.menu-choice.now-choice {
+    background-color: #f4f4ff;
+    border-bottom: 0px;
+    color: #5db6ff;
+}
+
+@media screen and (max-width: 1200px){
+    .main-container{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .menu-bar{
+        margin-left:10px;
+    }
+}
+
+/*영상*/
+.sub-container{
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color:#f4f4ff;
+}
+.video-box{
+    width: calc(100% - 70px);
+    height: 150px;
+    background-color: #d0d8ff;
+    border-radius: 15px;
+    position: relative;
+    margin: 15px;
+    padding: 20px;
+}
+.video-info {
+    font-family: "NanumSquare";
+    color: #1e2235;
+    vertical-align: top;
+    font-size: 25px;
+    margin-left: 10px;
+    display: inline-block;
+}
+.video-date {
+    color: #6e738a;
+    font-size: 20px;
+    margin-left: 0;
+    display: inline-block;
+}
+@media screen and (max-width: 1200px){
+    .sub-container{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}

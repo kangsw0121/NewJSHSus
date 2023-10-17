@@ -1,0 +1,152 @@
+@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+
+.main-container{    /*메인창 묶음*/
+  display: flex;
+  flex-direction: column;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+.main-blank{    /*네이게이션과 메인창 사이 여백*/
+  width: 100%;
+  height: 150px;
+  display: flex;
+}
+.introduce-title{
+  font-size: 40px;
+  font-family:"NanumSquare";
+  font-weight:400;
+  margin-bottom:0;
+  color:#fafaff;
+  margin-left:30px;
+}
+.dis-line{
+  height:1px;
+  background-color:#fafaff;
+  margin-bottom:20px;
+  margin-top:10px;
+  margin-left:20px;
+  margin-right:20px;
+}
+
+@media screen and (max-width: 1200px){
+  .main-container{
+      margin-left: 10px;
+      margin-right: 10px;
+  }
+  .menu-bar{
+      margin-left:10px;
+  }
+}
+
+/*게시판 css*/
+#columns{
+  column-width: 300px;
+  column-gap: 15px;
+}
+#columns figure{
+  display: inline-block;
+  margin:0;
+  margin-bottom: 15px;
+  padding:10px;
+  background-color: #f4edff;
+  border-radius: 15px;
+  height: auto;
+}
+#columns figure img{
+  width:100%;
+}
+#columns figure .chat-container{
+  width: 100%;
+}
+#columns figure figcaption{
+  border-top:1px solid #b4a1d3;
+  padding:10px;
+  margin-top:11px;
+}
+
+/*게시물에서 프로필 정보*/
+.post-profile{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.post-profile-crop {
+  display: inline-block;
+  padding: 0;
+  margin-top: 0px;
+  margin-left: 0px;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.profile-info {
+  margin-left: 5px;
+}
+.post-profile-name {
+  font-family: "NanumSquare";
+  color: #1e2235;
+  vertical-align: top;
+  font-size: 18px;
+  margin-left: 10px;
+  display: inline-block;
+  margin-top: 4px;
+  margin-bottom: 0;
+}
+.post-profile-ago {
+  color: #6e738a;
+  font-size: 15px;
+  margin-left: 0;
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/*게시물 내용*/
+.post-title {
+  font-size: 26px;
+  font-family: "NanumSquare";
+  font-weight: 500;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #1e2235;
+  vertical-align: middle;
+}
+
+/*채팅창 칸*/
+.chat-container{
+  box-sizing: border-box;
+  width: 300px;
+  height: 20px;
+  display: flex;
+  margin-top: 10px;
+}
+.chat-box{
+  font-family: "NanumSquare";
+  height: 30px; /* Increased height to accommodate checkbox and text */
+  background-color: #cad5f3;
+  border-radius: 40px;
+  width: 300%;
+  border:none;
+  outline: none;
+  position:relative;
+  top: -5px;
+  padding-left: 10px;
+}
+.chat-btn{
+  font-family: "NanumSquare";
+  color:#fafbff;
+  font-size:18px;
+  border:none;
+  width: 225px;
+  height: 30px;
+  background-color: #8686df;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position:relative;
+  top: -5px;
+  margin-left: 8px;
+}

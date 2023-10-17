@@ -1,0 +1,314 @@
+@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+
+.main-container{    /*메인창 묶음*/
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.main-blank{    /*네이게이션과 메인창 사이 여백*/
+    width: 100%;
+    height: 150px;
+    display: flex;
+}
+.introduce-title{
+    font-size: 40px;
+    font-family:"NanumSquare";
+    font-weight:400;
+    margin-bottom:0;
+    color:#fafaff;
+    margin-left:30px;
+}
+.dis-line{
+    height:1px;
+    background-color:#fafaff;
+    margin-bottom:20px;
+    margin-top:10px;
+    margin-left:20px;
+    margin-right:20px;
+}
+.menu-bar{  /*소개창 메뉴바*/
+    display:flex;
+    margin-left:5%;
+}
+.menu-choice {  /*소개창 메뉴바 선택란*/
+    color: #1e2235;
+    background-color: #d0d8ff;
+    border: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-family: "NanumSquare";
+    display: block;
+    padding: 0.5rem 1rem;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    box-sizing: content-box;
+    font-size: 18px;
+    margin-right:5px;
+}
+.menu-choice.now-choice {
+    background-color: #f4f4ff;
+    border-bottom: 0px;
+    color: #5db6ff;
+}
+
+@media screen and (max-width: 1200px){
+    .main-container{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .menu-bar{
+        margin-left:10px;
+    }
+}
+
+/*개발자소개 css*/
+.sub-container{
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color:#f4f4ff;
+}
+.dev-title {
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #353688;
+    font-size: 35px;
+    font-family: "NanumSquare";
+}
+.dev-year {
+    margin-left: 20px;
+    font-size: 27px;
+    font-family: "NanumSquareRound";
+    color: #5a5699;
+    font-weight: 500;
+}
+.div-year {
+    margin-left:10px;
+    margin-right:10px;
+    height: 2px;
+    background-color: #b4a1d3;
+}
+.text-secondary {
+    color: #9d8cb8 !important;
+    font-weight: 400;
+}
+.row {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin-left:20px;
+    margin-right:20px;
+}
+.col-lg-4 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    box-sizing: border-box;
+}
+.rounded-circle {
+    border-radius: 50% !important;
+}
+.dev-3 {
+    margin-bottom: 0.5rem;
+    font-family: inherit;
+    font-weight: 600;
+    line-height: 1.2;
+    color: inherit;
+}
+.text-secondary.smalltext {
+    font-weight: 500;
+    font-family: "NanumSquare";
+}
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #ffffff;
+    background-clip: border-box;
+    border-radius: 10px;
+}
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+.card-text {
+    font-family: "NanumSquare";
+    margin: 0;
+}
+
+h2 {
+    color: #353688;
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: "NanumSquare";
+}
+
+@media screen and (max-width: 800px){
+    .col-lg-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+        text-align: center;
+    }
+    .hid-br {
+        display: block;
+    }
+}
+@media screen and (max-width: 1200px){
+    .sub-container{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+/*과구리소개 css*/
+.jshsus{
+    color: #7E7FD1;
+    font-weight: bold;
+}
+.RGB1{
+    color: var(--primary-color);
+    font-weight: bold;
+}
+.RGB2{
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+.RGB3{
+    color: var(--light-color);
+    font-weight: bold;
+}
+.RGB4{
+    color: var(--dark-color);
+    font-weight: bold;
+}
+.col-md-7 {
+    flex: 0 0 62%;
+    max-width: 62%;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+.featurette-heading {
+    font-family:"NanumSquare";
+    font-size: 27px;
+}
+.text-muted {
+    font-family:"NanumSquare";
+    color: #b4a1d3 !important;
+}
+.lead {
+    font-family:"NanumSquare";
+    font-size: 20px;
+    font-weight: 500;
+}
+.col-md-5 {
+    flex: 0 0 38%;
+    max-width: 38%;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+.order-md-2 {
+    order: 2;
+}
+.order-md-1 {
+    order: 1;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+hr {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+    margin-left:10px;
+    margin-right:10px;
+    height: 2px;
+    background-color: #b4a1d3;
+}
+
+@media screen and (max-width: 1200px){
+    .lead {
+        font-size: 18px;
+    }
+    .featurette-heading {
+        font-size: 27px;
+    }
+}
+@media screen and (max-width: 800px){
+    .featurette-heading {
+        font-size: 25px;
+    }
+    .lead {
+        font-size: 15px;
+    }
+    .col-md-5 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .img-fluid {
+        max-width: 100%;
+        height: auto;
+    }
+    .col-md-7 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .col-md-5 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}

@@ -1,119 +1,120 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link rel="stylesheet" href="assets/css/scrollbar.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/main/main.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
 
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>과구리</title>
-
-	<link rel="stylesheet" href="assets/css/main_title.css">
-  	<link rel="stylesheet" href="assets/css/main_login.css">
-	<link rel="stylesheet" href="assets/css/main_meal.css">
-	<link rel="stylesheet" href="assets/css/scrollbar.css">
-
-	<script type="text/javascript" src="js/home/login.js"></script>
-
-  <!--전체화면 스크롤 관련 css-->
-  	<link rel="stylesheet" href="assets/css/main_page.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/jquery.fullPage.css" />
-
-  <!--전체화면 스크롤 관련 자바스크립트-->
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
-	<script type="text/javascript" src="assets/js/jquery.fullPage.js"></script>
-	<script type="text/javascript" src="assets/js/main_page.js"></script>
-
-</head>
-<body>
-	<div id="fullpage">
-		<!--첫번째 페이지-->
-		<div class="section" id="section0">	
-			<div id="titlefont" onselectstart='return false'>JSHSUS</div>  <!--사이트 로고-->
-			<!--로그인 창-->
-			<form id="login-form" action="/login" method="post">	<!--<form action="http://localhost/color.php" method="post">-->
-				<div class="login-box">
-				<input id="id" type="text" name='id' class="login-txt" placeholder="ID">  <!--아이디 입력칸-->
-				<input id="pw" type="password" name='pw' class="login-txt" placeholder="PASSWORD">  <!--비번 입력칸-->
-				<!--계정 정보 저장 체크박스 & 텍스트-->
-				<div class="login-checkbox-container">
-					<div class="checkbox-wrapper-30">
-					<span class="checkbox">
-						<input type="checkbox" class="login-checkbox-input">
-						<svg>
-						<use xlink:href="#checkbox-30" class="checkbox"></use>
-						</svg>
-					</span>
-					<svg xmlns="http://www.w3.org/2000/svg" style="display:none">
-						<symbol id="checkbox-30" viewBox="0 0 22 22">
-						<path fill="none" stroke="currentColor" d="M5.5,11.3L9,14.8L20.2,3.3l0,0c-0.5-1-1.5-1.8-2.7-1.8h-13c-1.7,0-3,1.3-3,3v13c0,1.7,1.3,3,3,3h13 c1.7,0,3-1.3,3-3v-13c0-0.4-0.1-0.8-0.3-1.2"/>
-						</symbol>
-					</svg>
-					</div>
-					<label for="login-check-btn" class="login-checkbox-label">&nbsp;저장&nbsp;&nbsp;&nbsp;</label>
-				</div>
-				<!--로그인 버튼-->
-				<input type="submit" class="login-btn" value="LOGIN">
-				<div class="fas fa-login"></div>
-				</div>
-			</form>
-			<div class="create-id">계정생성</div>
-		</div>
-		<!--두번째 페이지-->
-		<!-- 나이스 api KEY : 01f5d2f0afa64bd48204f5de6d8d706d / 추후 cloudflare 활용 보안 필요 -->
-		<div class="section" id="section1">
-			<div class="meal-box">
-				<div id="menutitle">2023.XX.XX.(요일)&nbsp;식단<br></div>
-				<table border>
-					<thead>
-						<tr>
-							<td>
-								<br><img src="/img/home/morning.png" height="50" width="50"><br><br>
-							</td>
-							<td>
-								<br><img src="/img/home/lanch.png" height="50" width="50"><br><br>
-							</td>		
-							<td>
-								<br><img src="/img/home/night.png" height="50" width="50"><br><br>
-							</td>		
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<td>매운콩나물무침</td><td>현미찹쌀밥</td><td>소불고기구운주먹밥</td>
-						</tr>
-						<tr>
-							<td>닭가슴살방울토마토샐러드</td><td>곰탕</td><td>자장면</td>
-						</tr>
-						<tr>
-							<td>깻잎김치</td><td>토마토발사믹샐러드</td><td>상추생채</td>
-						</tr>
-						<tr>
-							<td>배추김치</td><td>브로컬리콜리플라워볶음</td><td>아메리칸빼빼로핫도그</td>
-						</tr>
-						<tr>
-							<td>딸기우유</td><td>쥐포튀김</td><td>배추김치</td>
-						</tr>
-						<tr>
-							<td>치즈케이크</td><td>깍두기</td><td>단무치부침</td>
-						</tr>
-						<tr>
-							<td></td><td>오이소박이</td><td>복숭아맛주스</td>
-						</tr>
-						<tr>
-							<td></td><td>아이스크림</td><td></td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
-		</div>
-		<!--세번째 페이지-->
-		<div class="section" id="section2">
-			<div id="titlefont">탐활서</div>
-		</div>
-		<!--네번째 페이지-->
-		<div class="section" id="section3">
-			<div id="titlefont">외부링크</div>
-		</div>
-
-	</div>
-</body>
+    <title>과구리</title>
+  </head>
+  <body topmargin="0" bottommargin="0" leftmargin="0" rightmargin="0" style="background-color:#7E7FD1">
+    <a id="pull" href="#"></a>
+    <header class="menu" >
+      <!--내비게이션 바-->
+      <nav class="clearfix">
+        <ul class="clearfix">
+            <div><a href="/html/main/index.html" id="titlelogo">JSHSUS</a></div>
+            <div>
+              <a id="submenu" href="contents/introduce/council.html">소개</a>
+              <a id="submenu" href="https://jeonnam-sh.hs.jne.kr/user/indexMain.action?siteId=chonnam-sh_hs">학교 홈페이지</a>
+              <a id="submenu" href="https://jshs.munzii.com/">전곽일보</a>
+              <a id="submenu" href="http://www._____.com/Contact">LAB_OUR</a>
+              <a id="submenu" href="http://www._____.com/Contact">학생부 전산시스템</a>
+            </div>
+            <li><a href="http://www._____.com/About">공지사항</a></li> <!--""<-여기 부분에 URL 작성하면 됨-->
+            <li><a href="http://www._____.com/About">탐활서</a></li>
+            <li><a href="contents/noticeboard/index.html">자유게시판</a></li>
+            <li><a href="http://www._____.com/Travel">청원·제안</a></li>
+            <li><a href="http://www._____.com/Contact">상벌점</a></li>
+            <li><a href="contents/broadcasting/video.html">방송부</a></li>
+            <li><a href="http://www._____.com/Contact">동아리</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="main-container">
+        <div class="main-blank"></div>
+        <div class="first-container">
+          <!--학사일정-->
+          <div class="schedule-box">
+            <img src="assets/img/main/schedule.png" class="menu-icon">
+            <h2 class="menu-title">학사일정</h2>
+            <a class="right-arrow">
+              <img class="right-arrow-img" src="assets/img/main/more.png">
+            </a>
+            <div class="small-line"></div>
+          </div>
+          <!--청원·제안-->
+          <div class="petition-box">
+            <img src="assets/img/main/petition.png" class="menu-icon">
+            <h2 class="menu-title">청원·제안</h2>
+            <a class="right-arrow">
+              <img class="right-arrow-img" src="assets/img/main/more.png">
+            </a>
+            <div class="small-line"></div>
+          </div>
+          <!--프로필-->
+          <div class="profile-box">
+  
+          </div>
+        </div>
+        <div class="second-container">
+          <!--공지사항-->
+          <div class="notification-box">
+            <img src="assets/img/main/notification.png" class="menu-icon">
+            <h2 class="menu-title">공지사항</h2>
+            <a class="right-arrow">
+              <img class="right-arrow-img" src="assets/img/main/more.png">
+            </a>
+            <div class="small-line"></div>
+          </div>
+          <!--자유게시판-->
+          <div class="noticeboard-box">
+            <img src="assets/img/main/noticeboard.png" class="menu-icon">
+            <h2 class="menu-title">자유게시판</h2>
+            <a class="right-arrow" href="/html/noticeboard/index.html">
+              <img class="right-arrow-img" src="assets/img/main/more.png">
+            </a>
+            <div class="small-line"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <!--저작권 표시-->
+      <div class="copyright">
+        <span class="copyright-text">Copyright © 2023 전남과학고등학교 IT부. All Rights Reserved.</span>
+      </div>
+      <!--화면 제일 밑칸-->
+      <div class="row-div">
+        <div class="row-ment">
+          <span class="ment-f">
+              <a>로그인</a>
+              </span>
+              <a class="row-ment">전체서비스</a>           
+        </div>
+        <div class="row-ment">
+          <span class="ment-f">
+            <a>개인정보처리방침</a>
+          </span>
+          <a>
+            <span></span>
+          </a>
+          <a class="row-ment">서비스 안내</a>
+        </div>
+        <div class="row-ment">
+          <span>
+            <b>
+              "함께하는 전남과학고등학교,"
+              <a id="link">JSHSus.kr</a>
+            </b>
+          </span>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>

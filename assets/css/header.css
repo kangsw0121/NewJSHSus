@@ -1,0 +1,115 @@
+@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+@font-face {
+    font-family: 'LOTTERIACHAB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/LOTTERIACHAB.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+nav{
+    font-size: 12pt;
+    font-family: 'PT Sans', Arial, Sans-serif;
+    position: relative;
+}
+nav ul{
+    padding: 0;
+    margin: 0 auto;
+    width: auto;
+}
+nav a{
+    line-height: 55px;
+    height: 50px;
+}
+nav li a{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+nav li:last-child a{
+    border-right: 0;
+}
+nav a:hover, nav a:active{
+}
+nav a#pull{
+    display: none;
+}
+  html {
+  -webkit-touch-callout:none;
+  -webkit-user-select:none;
+  -webkit-tap-highlight-color:rgba(0, 0, 0, 0);
+}
+
+ul{
+    /*list-style-type: none;*/
+    margin: 0;
+    padding: 0;
+    background-color: #6263c4;
+    text-align: center;
+}
+li{
+    /*position: relative;*/
+    display: inline-block;
+}
+li a{
+    font-family:"NanumSquare";
+    font-size: 20px;
+    color: #fafaff;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+    position: relative;
+    transition: 0.3s;
+}
+li a:hover{
+    /*color: #597812;*/
+    color: #7ac3ff;
+    font-weight:normal;
+}
+
+.menu {
+    width: 5000px;
+    height: 100px;
+    text-align: center;
+    max-width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-color: #333333;color: white;
+    position: absolute;z-index: 1;
+}
+
+
+#titlelogo{
+    font-family: "LOTTERIACHAB";
+    font-size:50px;
+    color:#f0f4ff;
+    text-align:center;
+    text-decoration: none;
+    position: relative;
+    top: 10px;
+}
+#submenu{
+    font-family:"NanumSquare";
+    font-size: 14px;
+    color: #fafaff;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+    position: relative;
+    transition: 0.3s;
+    top: 10px;
+    line-height: 30px;
+}
+#submenu:hover{
+    /*color: #597812;*/
+    color: #7ac3ff;
+    font-weight:normal;
+}
+
+@media(max-width: 1000px) {
+    li a{
+        font-size: 15px;
+    }
+    #submenu{
+        font-size: 8px;
+    }
+}

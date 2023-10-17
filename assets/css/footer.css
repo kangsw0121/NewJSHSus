@@ -1,0 +1,57 @@
+@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+
+footer{
+    font-family: "NanumSquare";
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.copyright {    /*저작권 칸*/
+    padding: 12px;
+    height: 20px;
+    border-top: 1px solid #f0f4ff;
+    border-bottom: 1px solid #f0f4ff;
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+.copyright-text {   /*저작권 표시글*/
+    margin: 20px;
+    font-size: 13px;
+    vertical-align: super;
+    color: #f0f4ff;
+}
+
+/*화면 제일 밑칸*/
+.row-div{
+    padding:10px;
+    margin:0;
+    display:block;
+}
+.row-ment{
+    color:#f0f4ff;
+    margin-bottom:13px;
+    font-size:13px;
+    vertical-align:super;
+}
+.ment-f-a{
+    color:#f0f4ff;
+    text-decoration:none;
+}
+.ment-f{
+    margin-bottom:13px;
+    font-size:13px;
+    vertical-align:super;
+    color:#f0f4ff;
+}
+.ment-f::after{
+    display: inline-block;
+    width: 1px;
+    height: 11px;
+    background: #f0f4ff;
+    margin-right: 10px;
+    margin-left: 10px;
+    vertical-align: 0;
+    content: '';
+}
