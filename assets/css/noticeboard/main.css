@@ -16,12 +16,12 @@
   font-family:"NanumSquare";
   font-weight:400;
   margin-bottom:0;
-  color:#fafaff;
+  color:#fdfbff;
   margin-left:30px;
 }
 .dis-line{
   height:1px;
-  background-color:#fafaff;
+  background-color:#fdfbff;
   margin-bottom:20px;
   margin-top:10px;
   margin-left:20px;
@@ -48,9 +48,10 @@
   margin:0;
   margin-bottom: 15px;
   padding:10px;
-  background-color: #f4edff;
+  background-color: #fdfbff;
   border-radius: 15px;
   height: auto;
+  width: 95%;
 }
 #columns figure img{
   width:100%;
@@ -59,7 +60,7 @@
   width: 100%;
 }
 #columns figure figcaption{
-  border-top:1px solid #b4a1d3;
+  border-top:1px solid #b49bdd;
   padding:10px;
   margin-top:11px;
 }
@@ -94,7 +95,7 @@
   margin-bottom: 0;
 }
 .post-profile-ago {
-  color: #6e738a;
+  color: #9c7dc7;
   font-size: 15px;
   margin-left: 0;
   display: inline-block;
@@ -125,7 +126,7 @@
 .chat-box{
   font-family: "NanumSquare";
   height: 30px; /* Increased height to accommodate checkbox and text */
-  background-color: #cad5f3;
+  background-color: #e6d4ff;
   border-radius: 40px;
   width: 300%;
   border:none;
@@ -141,7 +142,7 @@
   border:none;
   width: 225px;
   height: 30px;
-  background-color: #8686df;
+  background-color: #a987ed;
   border-radius: 40px;
   display: flex;
   justify-content: center;

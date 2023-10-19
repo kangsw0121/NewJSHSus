@@ -43,7 +43,7 @@ ul{
     /*list-style-type: none;*/
     margin: 0;
     padding: 0;
-    background-color: #6263c4;
+    background-color: #8354d4;
     text-align: center;
 }
 li{
@@ -53,7 +53,7 @@ li{
 li a{
     font-family:"NanumSquare";
     font-size: 20px;
-    color: #fafaff;
+    color: #fdfbff;
     text-align: center;
     padding: 15px 20px;
     text-decoration: none;
@@ -62,7 +62,7 @@ li a{
 }
 li a:hover{
     /*color: #597812;*/
-    color: #7ac3ff;
+    color: #e093ff;
     font-weight:normal;
 }
 
@@ -73,7 +73,7 @@ li a:hover{
     max-width: 100%;
     background-position: center;
     background-size: cover;
-    background-color: #333333;color: white;
+    background-color: #333333;color: #fdfbff;
     position: absolute;z-index: 1;
 }
 
@@ -81,7 +81,7 @@ li a:hover{
 #titlelogo{
     font-family: "LOTTERIACHAB";
     font-size:50px;
-    color:#f0f4ff;
+    color:#fdfbff;
     text-align:center;
     text-decoration: none;
     position: relative;
@@ -90,7 +90,7 @@ li a:hover{
 #submenu{
     font-family:"NanumSquare";
     font-size: 14px;
-    color: #fafaff;
+    color: #fdfbff;
     text-align: center;
     padding: 15px 20px;
     text-decoration: none;
@@ -101,13 +101,22 @@ li a:hover{
 }
 #submenu:hover{
     /*color: #597812;*/
-    color: #7ac3ff;
+    color: #e093ff;
     font-weight:normal;
 }
 
 @media(max-width: 1000px) {
     li a{
         font-size: 15px;
+    }
+    #submenu{
+        font-size: 10px;
+    }
+}
+
+@media(max-width: 750px) {
+    li a{
+        font-size: 10px;
     }
     #submenu{
         font-size: 8px;

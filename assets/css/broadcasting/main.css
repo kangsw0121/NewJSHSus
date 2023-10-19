@@ -16,12 +16,12 @@
     font-family:"NanumSquare";
     font-weight:400;
     margin-bottom:0;
-    color:#fafaff;
+    color:#fdfbff;
     margin-left:30px;
 }
 .dis-line{
     height:1px;
-    background-color:#fafaff;
+    background-color:#fdfbff;
     margin-bottom:20px;
     margin-top:10px;
     margin-left:20px;
@@ -33,7 +33,7 @@
 }
 .menu-choice {  /*소개창 메뉴바 선택란*/
     color: #1e2235;
-    background-color: #d0d8ff;
+    background-color: #e3cdff;
     border: 0px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -48,9 +48,9 @@
     margin-right:5px;
 }
 .menu-choice.now-choice {
-    background-color: #f4f4ff;
+    background-color: #fdfbff;
     border-bottom: 0px;
-    color: #5db6ff;
+    color: #7e68eb;
 }
 
 @media screen and (max-width: 1200px){
@@ -67,12 +67,12 @@
 .sub-container{
     margin-left: 5%;
     margin-right: 5%;
-    background-color:#f4f4ff;
+    background-color:#fdfbff;
 }
 .video-box{
     width: calc(100% - 70px);
     height: 150px;
-    background-color: #d0d8ff;
+    background-color: #e3cdff;
     border-radius: 15px;
     position: relative;
     margin: 15px;
@@ -96,5 +96,11 @@
     .sub-container{
         margin-left: 10px;
         margin-right: 10px;
+    }
+    .video-info{
+        font-size: 15px;
+    }
+    .video-date{
+        font-size: 12px;
     }
 }

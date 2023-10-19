@@ -16,12 +16,12 @@
     font-family:"NanumSquare";
     font-weight:400;
     margin-bottom:0;
-    color:#fafaff;
+    color:#fdfbff;
     margin-left:30px;
 }
 .dis-line{
     height:1px;
-    background-color:#fafaff;
+    background-color:#fdfbff;
     margin-bottom:20px;
     margin-top:10px;
     margin-left:20px;
@@ -33,7 +33,7 @@
 }
 .menu-choice {  /*소개창 메뉴바 선택란*/
     color: #1e2235;
-    background-color: #d0d8ff;
+    background-color: #e3cdff;
     border: 0px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -48,9 +48,9 @@
     margin-right:5px;
 }
 .menu-choice.now-choice {
-    background-color: #f4f4ff;
+    background-color: #fdfbff;
     border-bottom: 0px;
-    color: #5db6ff;
+    color: #7e68eb;
 }
 
 @media screen and (max-width: 1200px){
@@ -67,13 +67,13 @@
 .sub-container{
     margin-left: 5%;
     margin-right: 5%;
-    background-color:#f4f4ff;
+    background-color:#fdfbff;
 }
 .dev-title {
     margin-left: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
-    color: #353688;
+    color: #7a48b3;
     font-size: 35px;
     font-family: "NanumSquare";
 }
@@ -81,7 +81,7 @@
     margin-left: 20px;
     font-size: 27px;
     font-family: "NanumSquareRound";
-    color: #5a5699;
+    color: #926bc2;
     font-weight: 500;
 }
 .div-year {
@@ -91,7 +91,7 @@
     background-color: #b4a1d3;
 }
 .text-secondary {
-    color: #9d8cb8 !important;
+    color: #a283d2 !important;
     font-weight: 400;
 }
 .row {
@@ -134,7 +134,7 @@
     flex-direction: column;
     min-width: 0;
     word-wrap: break-word;
-    background-color: #ffffff;
+    background-color: #f0e2ff;
     background-clip: border-box;
     border-radius: 10px;
 }
@@ -149,7 +149,7 @@
 }
 
 h2 {
-    color: #353688;
+    color: #7147b0;
     display: block;
     font-size: 1.5em;
     margin-block-start: 0.83em;
@@ -199,7 +199,7 @@ p {
 
 /*과구리소개 css*/
 .jshsus{
-    color: #7E7FD1;
+    color: #a17ed1;
     font-weight: bold;
 }
 .RGB1{
@@ -234,7 +234,7 @@ p {
 }
 .text-muted {
     font-family:"NanumSquare";
-    color: #b4a1d3 !important;
+    color: #c0a7e8 !important;
 }
 .lead {
     font-family:"NanumSquare";
@@ -277,7 +277,7 @@ hr {
     margin-left:10px;
     margin-right:10px;
     height: 2px;
-    background-color: #b4a1d3;
+    background-color: #b79ee0;
 }
 
 @media screen and (max-width: 1200px){

@@ -3,14 +3,14 @@
 .schedule-box{ /*학사일정 박스*/
     width: 32%;
     height: 480px;
-    background-color: #f4edff;
+    background-color: #fdfbff;
     border-radius: 15px;
     position: relative;
 }
 .petition-box{ /*청원·제안 박스*/
     width: 32%;
     height: 480px;
-    background-color: #f4edff;
+    background-color: #fdfbff;
     border-radius: 15px;
     position: relative;
     margin-left: 15px;
@@ -18,7 +18,7 @@
 .profile-box{ /*프로필 박스*/
     width: 32%;
     height: 480px;
-    background-color: #f4edff;
+    background-color: #fdfbff;
     border-radius: 15px;
     position: relative;
     margin-left: 15px;
@@ -26,14 +26,14 @@
 .notification-box{  /*공지사항 박스*/
     width: 48.6%;
     height: 480px;
-    background-color: #f4edff;
+    background-color: #fdfbff;
     border-radius: 15px;
     position: relative;
 }
 .noticeboard-box{  /*자유게시판 박스*/
     width: 48.6%;
     height: 480px;
-    background-color: #f4edff;
+    background-color: #fdfbff;
     border-radius: 15px;
     position: relative;
     margin-left: 15px;
@@ -90,7 +90,7 @@
 }
 .small-line{    /*제목 밑에 선*/
     height: 2px;
-    background-color: #b4a1d3;
+    background-color: #b194e0;
     margin-left: 12px;
     margin-right: 12px;
     margin-top: 5px;
