@@ -97,4 +97,10 @@
         margin-left: 10px;
         margin-right: 10px;
     }
+    .video-info{
+        font-size: 15px;
+    }
+    .video-date{
+        font-size: 12px;
+    }
 }
