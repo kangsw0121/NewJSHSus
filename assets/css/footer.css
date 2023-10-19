@@ -11,8 +11,8 @@ footer{
 .copyright {    /*저작권 칸*/
     padding: 12px;
     height: 20px;
-    border-top: 1px solid #f0f4ff;
-    border-bottom: 1px solid #f0f4ff;
+    border-top: 1px solid #fdfbff;
+    border-bottom: 1px solid #fdfbff;
     margin-top: 5px;
     margin-bottom: 8px;
 }
@@ -20,7 +20,7 @@ footer{
     margin: 20px;
     font-size: 13px;
     vertical-align: super;
-    color: #f0f4ff;
+    color: #fdfbff;
 }
 
 /*화면 제일 밑칸*/
@@ -30,26 +30,26 @@ footer{
     display:block;
 }
 .row-ment{
-    color:#f0f4ff;
+    color:#fdfbff;
     margin-bottom:13px;
     font-size:13px;
     vertical-align:super;
 }
 .ment-f-a{
-    color:#f0f4ff;
+    color:#fdfbff;
     text-decoration:none;
 }
 .ment-f{
     margin-bottom:13px;
     font-size:13px;
     vertical-align:super;
-    color:#f0f4ff;
+    color:#fdfbff;
 }
 .ment-f::after{
     display: inline-block;
     width: 1px;
     height: 11px;
-    background: #f0f4ff;
+    background: #fdfbff;
     margin-right: 10px;
     margin-left: 10px;
     vertical-align: 0;
