@@ -113,3 +113,12 @@ li a:hover{
         font-size: 10px;
     }
 }
+
+@media(max-width: 750px) {
+    li a{
+        font-size: 10px;
+    }
+    #submenu{
+        font-size: 8px;
+    }
+}
