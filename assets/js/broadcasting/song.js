@@ -1,5 +1,6 @@
 function addsong() {
-    const songurl = document.getElementById('song-url').value.split("?")[0];
+    const songurlInput = document.getElementById('song-url');
+    const songurl = songurlInput.value.split("?")[0];
 
     if(songurl.trim() === '') {
         alert('url을 입력해주세요.');
@@ -29,4 +30,6 @@ function addsong() {
     document.getElementById("list").appendChild(iframe);
 
     alert('곡 신청이 완료되었습니다.');
+
+    songurlInput.value = '';
 } 
