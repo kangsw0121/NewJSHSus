@@ -1,8 +1,11 @@
 function addsong() {
     const songurl = document.getElementById('song-url').value.split("?")[0];
-    
+
     if(songurl.trim() === '') {
         alert('url을 입력해주세요.');
+        return;
+    }else if(songurl.indexOf('https://open.spotify.com/track') === -1) {
+        alert('잘못된 url 경로입니다.');
         return;
     }
 
