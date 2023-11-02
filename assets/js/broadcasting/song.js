@@ -1,36 +1,29 @@
 function addsong() {
-    const titleInput = document.getElementById('title-input');
-    const artistInput = document.getElementById('artist-input');
-    const urlInput = document.getElementById('url-input');
-    const songList = document.getElementById('songList');
-
-    const title = titleInput.value.trim();
-    const artist = artistInput.value.trim();
-    const url = urlInput.value.trim();
-
-    if (title === '' || artist === '' || url === '') {
-        alert('곡 정보를 입력해주세요.');
+    const songurl = document.getElementById('song-url').value.split("?")[0];
+    
+    if(songurl.trim() === '') {
+        alert('url을 입력해주세요.');
         return;
     }
 
-    if (title.length >= MAX_NAMES) {
-        alert('신청곡이 가득 찼습니다.');
-        return;
+    const songcode = songurl.replace('/track', '/embed/track');
+
+    const iframes = document.querySelectorAll("iframe");
+    for (const iframe of iframes) {
+        if (iframe.src === songcode + "?utm_source=generator") {
+            alert('이미 신청된 곡입니다.');
+            return;
+        }
     }
 
-    const maindiv = document.createElement('div');
-    const songdiv = document.createElement('div');
-    const urla = document.createElement('a');
+    const iframe = document.createElement("iframe");
+    iframe.src = songcode + "?utm_source=generator";
+    iframe.frameBorder = 0;
+    iframe.allowfullscrean = "";
+    iframe.allow = "autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture";
+    iframe.loading = "lazy";
 
-    const songtxt = document.createTextNode('&{artist} - ${title}');
-    const urltxt = document.createTextNode('${url}');
+    document.getElementById("list").appendChild(iframe);
 
-    songdiv.appendChild(songtxt);
-    urla.appendChild(urltxt);
-
-    maindiv.appendChild(songdiv);
-    maindiv.appendChild(urla);
-
-    const songlistDiv = document.getElementById('song-list');
-    songlistdivDiv.appendChild(maindiv);
+    alert('곡 신청이 완료되었습니다.');
 } 
