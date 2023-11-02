@@ -104,3 +104,68 @@
         font-size: 12px;
     }
 }
+
+/*신청곡*/
+.application-box{
+    width: calc(100% - 50px);
+    height: 170px;
+    background-color: #e3cdff;
+    border-radius: 15px;
+    position: relative;
+    margin: 15px;
+    padding: 10px;
+}
+.application-guide{
+    font-family: "NanumSquare";
+}
+.application{
+    font-family: "NanumSquare";
+    color:#000000;
+    font: size 14px;
+    border:none;
+    width: 85%;
+    height: 30px;
+    background-color: #f1ebff;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    padding-left: 7px;
+}
+.application-btn{
+    font-family: "NanumSquare";
+    color:#fafbff;
+    font-size:18px;
+    border:none;
+    width: calc(15% - 10px);
+    height: 30px;
+    background-color: #a987ed;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    margin-left: 8px;
+}
+.application-container{
+    box-sizing: border-box;
+    width: 100%;
+    height: 15px;
+    display: flex;
+}
+.list{
+    position: relative;
+    flex-direction: column;
+    width: 100%;
+    display: flex;
+}
+iframe{
+    display: block;
+    width: calc(100% - 30px);
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    height: 152px;
+    border-radius: 12px;
+}
