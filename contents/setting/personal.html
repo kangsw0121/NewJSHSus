@@ -6,17 +6,16 @@
     
     <link rel="stylesheet" href="../../assets/css/scrollbar.css">
     <link rel="stylesheet" href="../../assets/css/header.css">
-    <link rel="stylesheet" href="../../assets/css/broadcasting/main.css">
+    <link rel="stylesheet" href="../../assets/css/setting/main.css">
     <link rel="stylesheet" href="../../assets/css/footer.css">
     <link rel="stylesheet" href="../../assets/css/body.css">
 
-    <script type="text/javascript" src="../../assets/js/broadcasting/song.js"></script>
+    <script type="text/javascript" src="../../assets/js/setting/theme.js"></script>
 
     <title>과구리</title>
 
     <link rel="icon" href="../../assets/img/NewJshsusLogoicon.svg"/>
     <link rel="apple-touch-icon" href="../../assets/img/NewJshsusLogoicon.svg"/>
-    
   </head>
   <body topmargin="0" bottommargin="0" leftmargin="0" rightmargin="0" class="default-theme themeable">
     <a id="pull" href="#"></a>
@@ -37,43 +36,61 @@
             <li><a href="../noticeboard/index.html">자유게시판</a></li>
             <li><a href="http://www._____.com/Travel">청원·제안</a></li>
             <li><a href="http://www._____.com/Contact">상벌점</a></li>
-            <li><a href="video.html">방송부</a></li>
+            <li><a href="../broadcasting/video.html">방송부</a></li>
             <li><a href="http://www._____.com/Contact">분실물</a></li>
-            <li><a href="../setting/personal.html">설정</a></li>
+            <li><a href="personal.html">설정</a></li>
         </ul>
       </nav>
     </header>
     <main>
         <div class="main-container">
             <div class="main-blank"></div>
-            <h1 class="introduce-title">방송부</h1>
+            <h1 class="introduce-title">설정</h1>
             <div class="dis-line"></div>
             <!--소개창 메뉴칸-->
             <div class="menu-bar">
-                <a class="menu-choice" href="video.html">전곽비디오</a>
-                <a class="menu-choice  now-choice" href="song.html">기상송신청</a>
+                <a class="menu-choice now-choice" href="personal.html">개인설정</a>
+                <a class="menu-choice" href="http://www._____.com/Contact">프로필설정</a>
+                <a class="menu-choice" href="http://www._____.com/Contact">관리</a>
             </div>
             <div class="sub-container">
-              <div class="application-box">
-                <div class="application-container">
-                  <input type="text" id="song-url" class="application" placeholder="신청곡의 스포티파이URL을 입력해주세요.">
-                  <input type="submit" onclick="addsong()" class="application-btn" value="신청">
+              <div class="row featurette">
+                <div class="col-md-7">
+                  <h2>테마 설정</h2>
+                  <div class="theme-setting">
+                    
+                    <a onclick="changeTheme('default-theme')">
+                      <div class="theme-choice">
+                        <img class="theme-item" src="../../assets/img/NewJshsusLogoicon.svg" width="100px">
+                        <div class="theme-item">
+                          Default
+                        </div>
+                      </div>
+                    </a>
+
+                    <a onclick="changeTheme('dark-theme')">
+                      <div class="theme-choice">
+                        <img class="theme-item" src="../../assets/img/setting/darktheme.png" width="100px">
+                        <div class="theme-item">
+                          Dark
+                        </div>
+                      </div>
+                    </a>
+
+                    <a onclick="changeTheme('original-theme')">
+                      <div class="theme-choice">
+                        <img class="theme-item" src="../../assets/img/setting/JshsusLogoicon.png" width="100px">
+                        <div class="theme-item">
+                          Original
+                        </div>
+                      </div>
+                    </a>
+
+                  </div>
                 </div>
-                <br>
-                <div class="application-guide">
-                  ※ URL입력방법<br>
-                  1> 스포티파이에서 원하는 곡을 검색해줍니다.<br>
-                  2> 곡을 우클릭하고 공유 => 곡 링크 복사하기를 선택합니다.<br>
-                  3> 복사된 링크를 신청곡 입력란에 붙여넣기 해줍니다.<br><br>
-                  주의> 발라드, R&B와 같은 잔잔한 곡은 기상송 리스트에서 제외될 수 있습니다.
-                </div>
-              </div>
-              <div id="list">
-                <iframe src="https://open.spotify.com/embed/track/1OIbMExyOKTPcbjvXZHYll?utm_source=generator" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
               </div>
             </div>
         </div>
-
     </main>
     <footer>
       <!--저작권 표시-->

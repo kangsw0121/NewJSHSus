@@ -43,7 +43,6 @@ ul{
     /*list-style-type: none;*/
     margin: 0;
     padding: 0;
-    background-color: #8354d4;
     text-align: center;
 }
 
@@ -54,7 +53,6 @@ li{
 li a{
     font-family:"NanumSquare";
     font-size: 20px;
-    color: #fdfbff;
     text-align: center;
     padding: 15px 20px;
     text-decoration: none;
@@ -62,8 +60,6 @@ li a{
     transition: 0.3s;
 }
 li a:hover{
-    /*color: #597812;*/
-    color: #e093ff;
     font-weight:normal;
 }
 
@@ -74,7 +70,6 @@ li a:hover{
     max-width: 100%;
     background-position: center;
     background-size: cover;
-    background-color: #333333;color: #fdfbff;
     position: absolute;z-index: 1;
 }
 
@@ -82,7 +77,6 @@ li a:hover{
 #titlelogo{
     font-family: "LOTTERIACHAB";
     font-size:50px;
-    color:#fdfbff;
     text-align:center;
     text-decoration: none;
     position: relative;
@@ -91,7 +85,6 @@ li a:hover{
 #submenu{
     font-family:"NanumSquare";
     font-size: 14px;
-    color: #fdfbff;
     text-align: center;
     padding: 15px 20px;
     text-decoration: none;
@@ -101,8 +94,6 @@ li a:hover{
     line-height: 30px;
 }
 #submenu:hover{
-    /*color: #597812;*/
-    color: #e093ff;
     font-weight:normal;
 }
 
@@ -123,5 +114,80 @@ li a:hover{
     }
     #submenu{
         font-size: 8px;
+    }
+}
+
+.default-theme ul{
+    background-color: #8354d4;
+}
+.default-theme li a{
+    color: #ffffff;
+}
+.default-theme li a:hover{
+    color: #e093ff;
+}
+.default-theme{
+    .menu {
+        background-color: #333333;
+        color: #ffffff;
+    }
+    #titlelogo{
+        color:#ffffff;
+    }
+    #submenu{
+        color: #ffffff;
+    }
+    #submenu:hover{
+        color: #e093ff;
+    }
+}
+
+.dark-theme ul{
+    background-color: #282828;
+}
+.dark-theme li a{
+    color: #ffffff;
+}
+.dark-theme li a:hover{
+    color: #2f8c00;
+}
+.dark-theme{
+    .menu {
+        background-color: #333333;
+        color: #ffffff;
+    }
+    #titlelogo{
+        color:#ffffff;
+    }
+    #submenu{
+        color: #ffffff;
+    }
+    #submenu:hover{
+        color: #2f8c00;
+    }
+}
+
+.original-theme ul{
+    background-color: #69c9bf;
+}
+.original-theme li a{
+    color: #ffffff;
+}
+.original-theme li a:hover{
+    color: #a5d7d7;
+}
+.original-theme{
+    .menu {
+        background-color: #333333;
+        color: #ffffff;
+    }
+    #titlelogo{
+        color:#ffffff;
+    }
+    #submenu{
+        color: #ffffff;
+    }
+    #submenu:hover{
+        color: #a5d7d7;
     }
 }

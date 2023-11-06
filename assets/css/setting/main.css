@@ -16,12 +16,10 @@
     font-family:"NanumSquare";
     font-weight:400;
     margin-bottom:0;
-    color:#fdfbff;
     margin-left:30px;
 }
 .dis-line{
     height:1px;
-    background-color:#fdfbff;
     margin-bottom:20px;
     margin-top:10px;
     margin-left:20px;
@@ -32,8 +30,6 @@
     margin-left:5%;
 }
 .menu-choice {  /*소개창 메뉴바 선택란*/
-    color: #1e2235;
-    background-color: #e3cdff;
     border: 0px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -48,9 +44,7 @@
     margin-right:5px;
 }
 .menu-choice.now-choice {
-    background-color: #fdfbff;
     border-bottom: 0px;
-    color: #7e68eb;
 }
 
 @media screen and (max-width: 1200px){
@@ -86,7 +80,6 @@
 .sub-container{
     margin-left: 5%;
     margin-right: 5%;
-    background-color:#fdfbff;
 }
 .sub-container h2{
     font-family:"NanumSquare";
@@ -111,11 +104,8 @@
     margin-bottom:5%;
     align-items: center;
     margin-left: 10px;
-    color: black;
-}
-
-.now-theme{
-    border: 5px solid #fff694;
+    border-radius: 10px;
+    padding: 5px;
 }
 
 .theme-item{
@@ -123,4 +113,74 @@
     align-items: center;
     font-family:"NanumSquare";
     margin-bottom:10px;
+}
+
+.default-theme{
+    .introduce-title{
+        color:#fdfbff;
+    }
+    .dis-line{
+        background-color:#fdfbff;
+    }
+    .menu-choice {
+        color: #1e2235;
+        background-color: #e3cdff;
+    }
+    .menu-choice.now-choice {
+        background-color: #fdfbff;
+        color: #7e68eb;
+    }
+    .sub-container{
+        background-color:#fdfbff;
+    }
+    .theme-choice{
+        color: black;
+        border: 2px solid #bbb0f3;
+    }
+}
+.dark-theme{
+    .introduce-title{
+        color:#fdfbff;
+    }
+    .dis-line{
+        background-color:#fdfbff;
+    }
+    .menu-choice {
+        color: #afafaf;
+        background-color: #393939;
+    }
+    .menu-choice.now-choice {
+        background-color: #717171;
+        color: #ffffff;
+    }
+    .sub-container{
+        background-color:#717171;
+    }
+    .theme-choice{
+        color: black;
+        border: 2px solid #424242;
+    }
+}
+.original-theme{
+    .introduce-title{
+        color:#000000;
+    }
+    .dis-line{
+        background-color:#000000;
+    }
+    .menu-choice {
+        color: #28d6d6;
+        background-color: #b8eded;
+    }
+    .menu-choice.now-choice {
+        background-color: #ffffff;
+        color: #000000;
+    }
+    .sub-container{
+        background-color:#ffffff;
+    }
+    .theme-choice{
+        color: rgb(0, 0, 0);
+        border: 2px solid #acede7;
+    }
 }
