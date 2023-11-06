@@ -43,7 +43,7 @@ ul{
     /*list-style-type: none;*/
     margin: 0;
     padding: 0;
-    background-color: #8354d4;
+    background-color: #69c9bf;
     text-align: center;
 }
 
@@ -54,7 +54,7 @@ li{
 li a{
     font-family:"NanumSquare";
     font-size: 20px;
-    color: #fdfbff;
+    color: #ffffff;
     text-align: center;
     padding: 15px 20px;
     text-decoration: none;
@@ -63,7 +63,7 @@ li a{
 }
 li a:hover{
     /*color: #597812;*/
-    color: #e093ff;
+    color: #a5d7d7;
     font-weight:normal;
 }
 
@@ -82,7 +82,7 @@ li a:hover{
 #titlelogo{
     font-family: "LOTTERIACHAB";
     font-size:50px;
-    color:#fdfbff;
+    color:#ffffff;
     text-align:center;
     text-decoration: none;
     position: relative;
@@ -91,7 +91,7 @@ li a:hover{
 #submenu{
     font-family:"NanumSquare";
     font-size: 14px;
-    color: #fdfbff;
+    color: #ffffff;
     text-align: center;
     padding: 15px 20px;
     text-decoration: none;
@@ -102,7 +102,7 @@ li a:hover{
 }
 #submenu:hover{
     /*color: #597812;*/
-    color: #e093ff;
+    color: #a5d7d7;
     font-weight:normal;
 }
 

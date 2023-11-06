@@ -43,10 +43,9 @@ ul{
     /*list-style-type: none;*/
     margin: 0;
     padding: 0;
-    background-color: #8354d4;
+    background-color: #282828;
     text-align: center;
 }
-
 li{
     /*position: relative;*/
     display: inline-block;
@@ -63,7 +62,7 @@ li a{
 }
 li a:hover{
     /*color: #597812;*/
-    color: #e093ff;
+    color: rgb(14, 166, 0);
     font-weight:normal;
 }
 
@@ -82,7 +81,7 @@ li a:hover{
 #titlelogo{
     font-family: "LOTTERIACHAB";
     font-size:50px;
-    color:#fdfbff;
+    color:#ffffff;
     text-align:center;
     text-decoration: none;
     position: relative;
@@ -102,7 +101,7 @@ li a:hover{
 }
 #submenu:hover{
     /*color: #597812;*/
-    color: #e093ff;
+    color: rgb(14, 166, 0);
     font-weight:normal;
 }
 
