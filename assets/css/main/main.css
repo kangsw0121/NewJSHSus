@@ -79,3 +79,43 @@
         margin-right: 10px;
     }
 }
+
+.board-box{
+    background-color: #ded2ff;
+    height: 60px;
+    width: clac(100%-20px);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    vertical-align: middle;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.board-title{
+    font-family: "NanumSquare";
+    font-size: 20px;
+    display: inline;
+    color: black;
+    margin-left: 10px;
+}
+.board-nickname{
+    font-family: "NanumSquare";
+    font-size: 16px;
+    float: right;
+    margin-right: 10px;
+    display: inline;
+    color: rgb(87, 52, 131);
+}
+.board-date{
+    font-size: 13px;
+    color: rgb(118, 92, 151);
+    float: right;
+}
+.board-list{
+    margin-top: 10px;
+    max-height: 390px;
+    overflow-y: auto;
+}
