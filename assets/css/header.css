@@ -44,6 +44,7 @@ ul{
     margin: 0;
     padding: 0;
     text-align: center;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.063);
 }
 
 li{
@@ -168,7 +169,7 @@ li a:hover{
 }
 
 .original-theme ul{
-    background-color: #72ded3;
+    background-color: #75ddd3;
 }
 .original-theme li a{
     color: #ffffff;

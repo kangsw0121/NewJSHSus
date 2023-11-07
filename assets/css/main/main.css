@@ -8,6 +8,7 @@
     position: relative;
     margin-left: 10px;
     margin-right: 10px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.09);
 }
 .main-container{    /*메인창 묶음*/
     display: flex;
