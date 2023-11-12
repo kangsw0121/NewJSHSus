@@ -9,7 +9,7 @@ const leftMargin = 120;
  */
 const borderWidth = 0;
 const blockSize = 22;
-const widthBlockCount = 10;
+const widthBlockCount = 12;
 const widthBlockPaddingCount = 3;
 const heightBlockCount = 25;
 const hideTopLine = 1;
