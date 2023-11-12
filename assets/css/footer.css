@@ -110,3 +110,24 @@ footer{
         background: #8d8f93;
     }
 }
+.labour-theme{
+    .copyright {
+        border-top: 1px solid #ffffff;
+        border-bottom: 1px solid #ffffff;
+    }
+    .copyright-text {
+        color: #ffffff;
+    }
+    .row-ment{
+        color:#ffffff;
+    }
+    .ment-f-a{
+        color:#ffffff;
+    }
+    .ment-f{
+        color:#ffffff;
+    }
+    .ment-f::after{
+        background: #ffffff;
+    }
+}

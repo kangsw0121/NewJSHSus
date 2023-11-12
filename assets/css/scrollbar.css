@@ -45,3 +45,13 @@ div::-webkit-scrollbar-thumb {
 .original-theme div::-webkit-scrollbar-thumb{
     background: #c1e7e7; /*div 안의 스크롤바 색상*/
 }
+
+.labour-theme::-webkit-scrollbar-thumb{
+    background: #ffcf96; /* 스크롤바의 색상 */
+}
+.labour-theme::-webkit-scrollbar-track{
+    background: #ffa73c; /*스크롤바 뒷 배경 색상*/
+}
+.labour-theme div::-webkit-scrollbar-thumb{
+    background: #ffcf96; /*div 안의 스크롤바 색상*/
+}
